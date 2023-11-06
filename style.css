@@ -1,0 +1,58 @@
+.banner{
+  background-image: url('https://images.unsplash.com/photo-1457195740896-7f345efef228?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  color: white;
+  padding: 190px 0;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media (max-width: 992px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+.banner h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+a{
+  text-decoration:none;
+  color: white;
+  font-weight:bold;
+  transition: 0,3s ease;
+  padding: 8px 16px;
+  background-color: #FF9209;
+  border-radius: 6px;
+}
+a:hover{
+  background-color:#2B3499;
+}
